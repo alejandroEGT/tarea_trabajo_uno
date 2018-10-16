@@ -3,9 +3,10 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
-	$dbname = "bd_sociality2";
+	$dbname = "gastos";
 
 	$con = new mysqli($servername, $username, $password, $dbname);
+	mysqli_set_charset($con,"utf8");
 
 	
 
